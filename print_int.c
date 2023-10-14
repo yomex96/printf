@@ -8,7 +8,7 @@
 
 int printf_int(va_list args)
 {
-	int n = va_args(args, int);
+	int n = va_arg(args, int);
 	int num, last = n % 10, digit, exp = 1;
 	int q = 1;
 
