@@ -16,7 +16,8 @@ int is_printable(char c)
 }
 
 /**
- * append_hexa_code - This function will append ascci in hexadecimal code to buffer
+ * append_hexa_code - This function will append ASCII
+ * in hexadecimal code to buffer
  * @buffer: This is an array of characters.
  * @d: This is the index to start appending from
  * @ascii_code: ASSCI CODE.
