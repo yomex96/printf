@@ -1,14 +1,9 @@
 #ifndef MAIN_H
 #define MAIN_H
-<<<<<<< HEAD
 
 #include <unistd.h>
 #include <stdio.h>
-=======
->>>>>>> b02bf5784c8a69321b44689822410916790ad9bf
 #include <stdarg.h>
-#include <stdio.h>
-#include <unistd.h>
 
 #define UNUSED(x) (void)(x)
 #define BUFF_SIZE 1024
