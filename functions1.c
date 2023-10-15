@@ -1,6 +1,6 @@
 #include "main.h"
 
-/************************* PRINT UNSIGNED NUMBER *************************/
+/** PRINT UNSIGNED NUMBER */
 
 /**
  * print_unsigned - This will simply print a non negative number
@@ -37,7 +37,7 @@ int print_unsigned(va_list types, char buffer[],
 	return (write_unsgnd(0, d, buffer, flags, width, precision, size));
 }
 
-/************* PRINT UNSIGNED NUMBER IN OCTAL ****************/
+/** PRINT UNSIGNED NUMBER IN OCTAL */
 
 /**
  * print_octal - This should print a non negative number in octal notation
@@ -81,7 +81,7 @@ int print_octal(va_list types, char buffer[],
 	return (write_unsgnd(0, d, buffer, flags, width, precision, size));
 }
 
-/************** PRINT UNSIGNED NUMBER IN HEXADECIMAL **************/
+/** PRINT UNSIGNED NUMBER IN HEXADECIMAL */
 
 /**
  * print_hexadecimal - This will print a non negative number
@@ -102,7 +102,7 @@ int print_hexadecimal(va_list types, char buffer[],
 		flags, 'x', width, precision, size));
 }
 
-/************* PRINT UNSIGNED NUMBER IN UPPER HEXADECIMAL **************/
+/** PRINT UNSIGNED NUMBER IN UPPER HEXADECIMAL */
 
 /**
  * print_hexa_upper - This will print a non negative number
@@ -123,7 +123,7 @@ int print_hexa_upper(va_list types, char buffer[], int flags,
 		flags, 'X', width, precision, size));
 }
 
-/************** PRINT HEXX NUM IN LOWER OR UPPER **************/
+/** PRINT HEXX NUM IN LOWER OR UPPER */
 
 /**
  * print_hexa - This should print a hexadecimal number in lower or upper case
