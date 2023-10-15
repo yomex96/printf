@@ -37,7 +37,7 @@ int print_unsigned(va_list types, char buffer[],
 	return (write_unsgnd(0, d, buffer, flags, width, precision, size));
 }
 
-/** PRINT UNSIGNED NUMBER IN OCTAL  */
+/** PRINT UNSIGNED NUMBER IN OCTAL */
 
 /**
  * print_octal - This should print a non negative number in octal notation
@@ -138,8 +138,8 @@ int print_hexa_upper(va_list types, char buffer[], int flags,
  * Return: Number of chars printed
  */
 
-int print_hexa(va_list types, char map_to[], char buffer[], int flags,
-		char flag_ch, int width, int precision, int size)
+int print_hexa(va_list types, char map_to[], char buffer[],
+		int flags, char flag_ch, int width, int precision, int size)
 {
 	int d = BUFF_SIZE - 2;
 	unsigned long int num = va_arg(types, unsigned long int);
